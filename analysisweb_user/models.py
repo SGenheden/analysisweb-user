@@ -52,5 +52,5 @@ class Measurement(MeasurementMixin, db.Model):
         self.user = db_user
 
 
-class Flow(FlowMixin, db.Model):
+class Analysis(AnalysisMixin, db.Model):
     pass
